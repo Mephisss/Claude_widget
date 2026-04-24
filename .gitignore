@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# PyInstaller
+build/
+dist/
+*.spec
+
+# Generated icons (built from mascot.py at build time)
+claude-widget.ico
+claude-widget.icns
+claude-widget.png
+mascot_preview.png
+
+# User-local widget state (position, theme, preferences, credential path)
+config.json
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# Type checkers / linters
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+.coverage
+htmlcov/
