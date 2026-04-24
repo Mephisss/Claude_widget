@@ -20,6 +20,15 @@ SHA256 for v0.1.0 is `af44eb8680eb633516672127dffbf6096f9d9db79c89742f36987dd412
 You can verify with `Get-FileHash claude-widget.exe` in PowerShell, and the
 [VirusTotal scan is here](https://www.virustotal.com/gui/file/af44eb8680eb633516672127dffbf6096f9d9db79c89742f36987dd412a863a3).
 
+A few small antivirus vendors will flag it (typically Bkav, SecureAge, Arctic
+Wolf with names like "AIDetectMalware" or "Unsafe"). That's a known issue with
+every unsigned PyInstaller binary, mine included. Those engines use generic
+heuristics that flag any unfamiliar executable that bundles a Python
+interpreter. Microsoft Defender and the major engines come back clean. If you
+don't trust the precompiled binary, build it yourself from source in five
+minutes (steps below) and you'll get the exact same widget without the
+warnings.
+
 **macOS or Linux**: no prebuilt binary yet. You'll need to build it yourself,
 which takes about five minutes. Steps below.
 
