@@ -15,6 +15,11 @@ and double-click. SmartScreen will yell at you because the binary isn't
 code-signed (paying $200/year for that felt silly), so click "More info" then
 "Run anyway". After that it just runs.
 
+If you want to double-check that the binary is clean before running, the
+SHA256 for v0.1.0 is `af44eb8680eb633516672127dffbf6096f9d9db79c89742f36987dd412a863a3`.
+You can verify with `Get-FileHash claude-widget.exe` in PowerShell, and the
+[VirusTotal scan is here](https://www.virustotal.com/gui/file/af44eb8680eb633516672127dffbf6096f9d9db79c89742f36987dd412a863a3).
+
 **macOS or Linux**: no prebuilt binary yet. You'll need to build it yourself,
 which takes about five minutes. Steps below.
 
