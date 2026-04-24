@@ -10,7 +10,7 @@ tokens from the local JSONL session logs, so you still see something useful.
 
 ## Get it
 
-**Windows**: grab `claude-widget.exe` from the [latest release](https://github.com/Mephisss/claude-widget/releases/latest)
+**Windows**: grab `claude-widget.exe` from the [latest release](https://github.com/Mephisss/Claude_widget/releases/latest)
 and double-click. SmartScreen will yell at you because the binary isn't
 code-signed (paying $200/year for that felt silly), so click "More info" then
 "Run anyway". After that it just runs.
